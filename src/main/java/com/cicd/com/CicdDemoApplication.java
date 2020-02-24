@@ -33,7 +33,7 @@ public class CicdDemoApplication {
 		@GetMapping(value = "/")
 		public String getTest() {
 			
-			return "Hello Test demo - Jenkins";
+			return "Hello Test demo - Jenkins1";
 		}
 		
 }
