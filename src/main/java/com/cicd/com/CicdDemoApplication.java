@@ -28,12 +28,12 @@ public class CicdDemoApplication {
 
 		@GetMapping(value = "/getTest")
 		public String test_method() {
-			return "Hello World Test";
+			return "Hello World Test-Jenkins";
 		}
 		@GetMapping(value = "/")
 		public String getTest() {
 			
-			return "Hello Test demo";
+			return "Hello Test demo - Jenkins";
 		}
 		
 }
