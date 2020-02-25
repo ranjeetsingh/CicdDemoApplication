@@ -17,26 +17,20 @@ public class CicdDemoApplication extends SpringBootServletInitializer {
 		SpringApplication.run(CicdDemoApplication.class, args);
 	}
 }
-	@RestController
-	//@RequestMapping("/mywebapp")
-	class Microservice4Controller {
-
-		@Autowired
-		RestTemplate restTemplate;
-		
-		@Bean
-		public RestTemplate getRestTemplate() {
-			return new RestTemplate();
-		}
-
-		@GetMapping(value = "/getTest")
-		public String test_method() {
-			return "Hello World Test-Jenkins-madhuri";
-		}
-		@GetMapping(value = "/")
-		public String getTest() {
-			
-			return "Hello Test demo - Jenkins110-praveen";
-		}
-		
-}
+/*
+ * @RestController //@RequestMapping("/mywebapp") class Microservice4Controller
+ * {
+ * 
+ * @Autowired RestTemplate restTemplate;
+ * 
+ * @Bean public RestTemplate getRestTemplate() { return new RestTemplate(); }
+ * 
+ * @GetMapping(value = "/getTest") public String test_method() { return
+ * "Hello World Test-Jenkins-madhuri"; }
+ * 
+ * @GetMapping(value = "/") public String getTest() {
+ * 
+ * return "Hello Test demo - Jenkins110-praveen"; }
+ * 
+ * }
+ */
