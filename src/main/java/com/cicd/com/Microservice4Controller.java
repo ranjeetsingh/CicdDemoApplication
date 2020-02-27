@@ -8,7 +8,7 @@ public class Microservice4Controller {
 
 	@GetMapping(value = "/getTest")
 	public String test_method() {
-		return "Hello World Test-Jenkins--test-pipeline";
+		return "Hello World Test-Jenkins--test-pipeline-test100";
 	}
 
 	
