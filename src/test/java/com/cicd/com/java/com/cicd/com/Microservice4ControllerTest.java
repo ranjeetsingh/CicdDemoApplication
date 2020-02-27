@@ -20,14 +20,14 @@ class Microservice4ControllerTest {
 	public void test_method_When_Success() {
 		
 		String str = microservice4Controller.test_method();
-		assertThat(str).isEqualTo("Hello World Test-Jenkins--test-pipeline==");
+		assertThat(str).isEqualTo("Hello World Test-Jenkins--test-pipeline");
 
 	}
 	@Test
 	public void test_getTest_When_Success() {
 		
 		String str = microservice4Controller.getTest();
-		assertThat(str).isEqualTo("Hello Test demo - Jenkins110-420-pipeline==");
+		assertThat(str).isEqualTo("Hello Test demo - Jenkins110-420-pipeline");
 
 	}
 }
