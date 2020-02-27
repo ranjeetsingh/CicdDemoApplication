@@ -27,7 +27,7 @@ class Microservice4ControllerTest {
 	public void test_getTest_When_Success() {
 		
 		String str = microservice4Controller.getTest();
-		assertThat(str).isEqualTo("Hello Test demo - Jenkins110-420-0000");
+		assertThat(str).isEqualTo("Hello Test demo - Jenkins110-420");
 
 	}
 }
