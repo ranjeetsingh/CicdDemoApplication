@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Microservice4Controller {
+	private String QWEEEassds;
 	@GetMapping(value = "/getTest")
 	public String test_method() {
 		return "Hello World Test-Jenkins--test-pipeline-test100";
