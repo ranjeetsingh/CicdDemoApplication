@@ -15,7 +15,6 @@ import com.cicd.com.Microservice4Controller;
 class Microservice4ControllerTest {
 	@InjectMocks
 	Microservice4Controller microservice4Controller;
-	Microservice4Controller microservice4Controller;
 
 	@Test
 	public void test_method_When_Success() {
